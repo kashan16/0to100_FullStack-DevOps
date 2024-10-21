@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "name": "weatherapp",
+  "version": "1.0.0",
+  "description": "A weather app to display weather",
+  "main": "script.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kashan",
+  "license": "ISC"
+}
