@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["es2015", "es2016", "dom","ES2022"],
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "ES2023",
+    "moduleResolution": "node",
+    "jsx": "react"
+  },
+  "include": ["./*.ts", "./src/**/*"]
+}

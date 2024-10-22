@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Book Management System</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>Book Management System</header><br><br>
+            <input type="text" name="book_title" id="book_title" class="input"
+            placeholder="Enter Book Title"/><br>
+            <input type="text" name="book_author" id="book_author" class="input"
+            placeholder="Enter Book Author"/><br>
+            <input type="number" name="book_year" id="book_year" class="input"
+            placeholder="Enter Book Year"/><br>
+            <button id="addBook" class="addBtn">Add Book</button><br><br>
+            <button id="fetchBook" class="fetchBtn">Fetch Book</button><br>
+            <div id="bookInfo"></div>
+            <div id="errorInfo"></div>           
+        </div>
+        <script src="script.ts"></script>
+    </body>
+</html>

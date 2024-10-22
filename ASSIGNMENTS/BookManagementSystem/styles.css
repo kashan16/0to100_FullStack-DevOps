@@ -1,0 +1,38 @@
+body {
+    background-color: #FFFAFA;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    font-size: 24px;
+    cursor: text;
+}
+
+.addBtn , .fetchBtn {
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 6px;
+    width: 124px;
+    height: 62px;
+}
+
+.addBtn:hover , .fetchBtn:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+
